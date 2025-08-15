@@ -138,7 +138,7 @@ session = requests.Session()
 adapter = requests.adapters.HTTPAdapter(max_retries=retry_strategy)
 session.mount('https://', adapter)
 # key = "替换为你的key"  # 替换成你的API key
-key = "96126dfd866a1563aab102157956c49a"  # 替换成你的API key
+key = ""  # 替换成你的API key
 
 def get_location_name(location):
     parameters = {
